@@ -33,7 +33,7 @@ public class read : MonoBehaviour {
 	}
 
 	void parse(char line, int x, int y){
-		if(line=='c'){
+		if(line=='#'){
 			GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
         	cube.transform.position = new Vector3((float)x, 0.5F, (float)y);
 		}
